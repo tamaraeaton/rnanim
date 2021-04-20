@@ -19,7 +19,7 @@ const AnimOne = () => {
             toValue:0,
             duration:1000,
             delay:1000
-            
+            // , useNativeDriver: true
         }).start();
     }
 
@@ -31,7 +31,7 @@ const AnimOne = () => {
             />
             <Animated.View style={{
                 // opacity: moveElTwo,
-    // StandUp Begin
+
                 // transform:[
                 //     {
                 //         rotateX:moveElTwo.interpolate({
@@ -40,7 +40,7 @@ const AnimOne = () => {
                 //         })
                 //     }
                 // ]
-    // StandUp End
+
                 // left:moveElTwo.interpolate({
                 //     inputRange:[0, 1],
                 //     outputRange:[300, 0]
